@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.merchandise">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".KeranjangActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".CheckoutActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".PsnDerryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PsnVazoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PsnAryeshActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PsnWildanActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PsnRicisActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescHoodie2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescHoodie1Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescKaos2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescKaos1Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescJilbab4Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescJilbab3Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescJilbab2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescJilbab1Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescMasker4Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescMasker3Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescMasker2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescMasker1Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescKokaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescEstodiaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescTotebagActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescFlatshoesActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescSepatu2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DescSepatu1Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AwalActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistrasiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PesanActivity" />
+        <activity
+            android:name=".DerryActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VazoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AryeshActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WildanActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RicisActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

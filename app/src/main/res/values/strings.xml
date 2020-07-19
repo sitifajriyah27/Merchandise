@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">Merchandise</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Tim Ricis Merchandise</string>
+    <string name="nav_header_subtitle">merchandise.timricis@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_beranda">Beranda</string>
+    <string name="menu_kategori">Kategori</string>
+    <string name="menu_tentang_toko">Tentang Toko</string>
+    <string name="menu_tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_registrasi">Registrasi</string>
+    <string name="masukkan_email">Masukkan alamat email anda</string>
+    <string name="masukkan_psw">Masukkan password anda</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="masukkan_nama">Masukkan nama lengkap anda</string>
+    <string name="masukkan_tlp">Masukkan nomor telepon anda</string>
+    <string name="masukkan_alamat">Masukkan alamat lengkap anda</string>
+    <string name="konfirmasi_password">Konfirmasi password anda</string>
+    <string name="judul">Tim Ricis Merchandise</string>
+    <string name="judulbwh">merchandise.timricis@gmail.com</string>
+
+    <string name="sepatu1">
+    Deskripsi Produk :
+    \n Sepatu dengan warna hitam yang slick dan elegan, menemani langkah kamu dengan gaya. Desain yang stylish, dirancang agar dapat digunakan untuk semua gender (uni-sex). Tidak ada lagi kata bingung untuk pilihan sepatu casual untuk kegiatan sehari-hari yang paling terjangkau. 
+
+    </string>
+    <string name="flatshoes">
+    \n Deskripsi Produk :
+    \n Flat shoes ini di design untuk kamu para perempuan yang ingin menambah gaya casual menjadi semakin trendy, simple, anggun dan tampil beda.
+
+    </string>
+    <string name="sepatu2">
+        \n Deskripsi Produk :
+        \n Sepatu dengan motif green camouflage (army) yang keren, menemani langkah anda dengan kepercayadirian. Desain yang stylish, dirancang agar dapat digunakan untuk semua gender (uni-sex). Sepatu ini cocok untuk dipakai ketika hangout hingga hiking
+
+    </string>
+    <string name="totebag">
+        \n Deskripsi Produk :
+        \n Wayahe memiliki arti "sudah saatnya" atau "sudah waktunya" dengan maksud menginspirasi pemakai tas Wayahe untuk tidak menunda-nunda menggapai sukses dan mengunjungi tempat impian. Karena tidak ada waktu untuk memulai sesuatu yang baik kecuali saat ini
+
+    </string>
+    <string name="estodia">
+    \n Manfaat :
+    \n 1. Memutihkan gigi anda
+    \n 2. Membuang nafas tak sedap
+    \n 3. Dapat menghilangkan kuning gigi bagi yang merokok 
+    \n 4. Melindungi gusi
+    \n 5. Dapat Menghilangkan karang gigi
+    \n 6. Celah-celah gigi juga bisa hilang
+    </string>
+    <string name="koka">
+        Tasbih Koka
+        \n Manfaat :
+        \n 1. Membantu memperlancar peredaran darah
+        \n 2. Membantu merelaxkan syaraf yg menegang
+        \n 3. Dipercaya sebagai pelindung dari hal-hal mistis
+        \n 4. Dipercaya dapat menarik perhatian lawan jenis
+        \n 5. Dipercaya dapat memperbanyak keberuntungan
+    </string>
+
+    <string name="masker">
+    \n Manfaat :
+    \n - Mencerahkan
+    \n - Menghaluskan
+    \n - Mengencangkan
+    \n - Menghilangkan Bekas Jerawat
+    \n - Mengangkat Sel Kulit Mati
+    </string>
+
+    <string name="seleb">
+    \n Deskripsi Produk :
+    \n Hijab model segiempat dg bahan SUPER PREMIUM dengan banyak kelebihan :
+    \n 1. Lembut, Nyaman, dan Mudah diatur
+    \n 2. Tidak licin, nggak bikin hijabmu geser2, jadi rapi seharian.
+    \n 3. Tidak mudah kusut.
+    \n 4. Size diatas rata2, yaitu 120x120cm. Bisa dibuat syari.
+    \n 5. Tidak tipis dan ketebalannya pas
+        \n\n Varian Warna Lain : Blue, Cream, Peach
+</string>
+
+    <string name="evelyn">
+    \n Deskripsi Produk :
+    \n Hijab model segiempat dg bahan Polycotton premium dengan banyak kelebihan :
+    \n 1. Lembut Nyaman.
+    \n 2. Mudah diatur.
+    \n 3. Bisa kamu kreasikan gayanya sesukamu
+    \n 4. Bahannya lembut tapi bisa banget tegak diatas dahi .
+    \n 5. Tidak mudah kusut. Bahkan nggak perlu disetrika setelah dicuci.
+    \n 6. Size diatas rata2, yaitu 110x110cm.
+        \n\n Varian Warna Lain : Blue, Navy, Peach
+</string>
+    <string name="evessel">
+    \n Deskripsi Produk :
+    \n Hijab model segiempat dg bahan Polycotton premium dengan banyak kelebihan :
+    \n 1. Lembut Nyaman.
+    \n 2. Mudah diatur.
+    \n 3. Bisa kamu kreasikan gayanya sesukamu
+    \n 4. Bahannya lembut tapi bisa banget tegak diatas dahi .
+    \n 5. Tidak mudah kusut. Bahkan nggak perlu disetrika setelah dicuci.
+    \n 6. Size diatas rata2, yaitu 110x110cm.
+        \n\n Varian Warna Lain : Navy, Cream, Peach
+</string>
+    <string name="basic">
+    \n Deskripsi Produk :
+    \n 1. Hijab segi empat dengan efek glowingnya.
+    \n 2. Dipakenya juga nyaman, adem, dan langsung tegak di dahi.
+    \n 3. Bahan voal ini ketebalannya pas.
+    \n 4. Solusi untuk daily hijabmu simpel namun tetap modis.
+    \n 5. Dilengkapi signature silver Badge RICIS yang bikin hijabmu ISTIMEWA
+    \n 6. Size diatas rata2, yaitu 115x115cm.
+        \n\n Varian Warna Lain : Blue, Cream, Navy
+</string>
+
+    <string name="floral">
+    \n "Tak apa Negaraku Berkembang Asal Kembang di Hatiku tak pernah Hilang"
+        \n\n Deskripsi Produk :
+    \n Material : Combed 30s
+    \n Sablon : Plastisol
+</string>
+    <string name="indie">
+    \n "Sama seperti senja, kau akan datang membuat rasa lelah menjadi indah"
+        \n\n Deskripsi Produk :
+    \n Material : Combed 30s
+    \n Sablon : Superwhite
+</string>
+    <string name="hoodie">
+        \n Deskripsi Produk :
+    \n Colour : White
+    \n Material : fleece
+</string>
+    <string name="sweater">
+        \n Deskripsi Produk :
+    \n Colour : Misty grey
+    \n Material : fleece
+</string>
+
+    <string name="tentangricis">
+       Nama Toko : Ricis ByKhayra [ig : @ricisbykhayra]
+    \n Owner : Ria Yunita / Ria Ricis
+    \n Email : ricisbykhayra@gmail.com
+    \n Nomor Telepon : 081928349821
+    \n Alamat : Surabaya - Indonesia
+</string>
+
+    <string name="tentangwildan">
+    Nama Toko : Visbar [ig : @visbar.idn]
+    \n Owner : Wildan Alamsyah
+    \n Email : visbar@gmail.com
+    \n Nomor Telepon : 081928349821
+    \n Alamat : Depok - Indonesia
+</string>
+
+    <string name="tentangvazo">
+    Nama Toko : Masker Beras ByVazo [ig : @byvazo]
+    \n Owner : Vazo Achmad
+    \n Email : byvazo@gmail.com
+    \n Nomor Telepon : 081928349821
+    \n Alamat : Jakarta Selatan - Indonesia
+</string>
+
+    <string name="tentangaryesh">
+    Nama Toko : Sepatu Kamu [ig : @sepatukamu.co]
+    \n Owner : Aryesh Jianarta
+    \n Email : sepatukamu@gmail.com
+    \n Nomor Telepon : 081928349821
+    \n Alamat : Garut - Indonesia
+</string>
+
+    <string name="tentangderry">
+    Nama Toko : Estodia [ig : @estodia]
+    \n Owner : Derry Fransakti
+    \n Email : estodia@gmail.com
+    \n Nomor Telepon : 081928349821
+    \n Alamat : Jakarta Selatan - Indonesia
+</string>
+
+    <string-array name="ukuranbaju">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+
+    <string-array name="ukuransepatu">
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
+
+    <string name="desc_tf">
+        Untuk pembayaran melalui transfer
+        \n Rekening BRI A. N Siti Fajriyah
+        \n 0028-01-077037-50-3
+        \n Untuk melakukan submit silahkan upload bukti transfer
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="keranjang">Keranjang</string>
+
+
+</resources>

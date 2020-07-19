@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg6"
+    tools:context=".PsnAryeshActivity">
+
+    <ImageView
+        android:id="@+id/timricis"
+        android:src="@drawable/timriciss"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/tv_pesanan"
+        android:text="Pilih Pesanan :"
+        app:layout_constraintTop_toBottomOf="@id/timricis"
+        android:textColor="@color/hitam"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/pilihan"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_pesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="Aryeshiteru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:text="Seiyesh Sekata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:text="Aquariyesh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:text="Waistbag Series Wayahe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ukuran"
+        app:layout_constraintTop_toBottomOf="@id/pilihan"
+        android:text="Ukuran :"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/ukuransepatu"
+        app:layout_constraintTop_toBottomOf="@id/pilihan"
+        app:layout_constraintLeft_toRightOf="@id/ukuran"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="30dp"
+        android:entries="@array/ukuransepatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/warna"
+        android:text="Pilihan Warna :"
+        app:layout_constraintTop_toBottomOf="@id/ukuran"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        app:layout_constraintTop_toBottomOf="@id/warna"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb1"
+            android:text="Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb2"
+            android:text="Navy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/rg2"
+        app:layout_constraintTop_toBottomOf="@id/warna"
+        app:layout_constraintLeft_toRightOf="@id/rg1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb3"
+            android:text="Velvet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb4"
+            android:text="Pink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/jumlah"
+        android:text="Jumlah Pesanan :"
+        app:layout_constraintTop_toBottomOf="@+id/rg2"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="-"
+        app:layout_constraintTop_toBottomOf="@id/jumlah"
+        android:layout_marginTop="15dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <Button
+        android:id="@+id/btn2"
+        app:layout_constraintTop_toBottomOf="@id/jumlah"
+        app:layout_constraintLeft_toRightOf="@+id/jumlah1"
+        android:text="+"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <TextView
+        android:id="@+id/jumlah1"
+        android:text="0"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/jumlah"
+        app:layout_constraintLeft_toRightOf="@id/btn1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/pilih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Pesan"
+        android:background="@color/bgtentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

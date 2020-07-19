@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_beranda" />
+        <item
+            android:id="@+id/nav_kategori"
+            android:icon="@drawable/kategori"
+            android:title="@string/menu_kategori" />
+        <item
+            android:id="@+id/nav_tentangtoko"
+            android:icon="@drawable/tentang2"
+            android:title="@string/menu_tentang_toko" />
+
+    </group>
+<!--<item android:title=" ">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_keranjang"-->
+<!--                android:icon="@drawable/keranjang"-->
+<!--                android:title="Keranjang"/>-->
+<!--        </menu>-->
+<!--</item>-->
+</menu>

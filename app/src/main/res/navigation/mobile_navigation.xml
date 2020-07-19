@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.merchandise.ui.home.HomeFragment"
+        android:label="@string/menu_beranda"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_kategori"
+        android:name="com.example.merchandise.ui.kategori.KategoriFragment"
+        android:label="@string/menu_kategori"
+        tools:layout="@layout/fragment_kategori" />
+
+    <fragment
+        android:id="@+id/nav_tentangtoko"
+        android:name="com.example.merchandise.ui.tentangtoko.TentangtokoFragment"
+        android:label="@string/menu_tentang_toko"
+        tools:layout="@layout/fragment_tentangtoko" />
+
+    <fragment
+        android:id="@+id/nav_keranjang"
+        android:name="com.example.merchandise.ui.keranjang.KeranjangFragment"
+        android:label="@string/keranjang"
+        tools:layout="@layout/fragment_keranjang" />
+
+</navigation>

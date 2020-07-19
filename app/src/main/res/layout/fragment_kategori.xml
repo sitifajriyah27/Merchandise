@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@drawable/bg6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Kategori"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintTop_toBottomOf="@id/timricis"/>
+
+    <ImageView
+        android:id="@+id/timricis"
+        android:src="@drawable/timriciss"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"/>
+
+    <ImageView
+        android:id="@+id/ftricis"
+        android:src="@drawable/ricisbykhayra"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/text_kategori"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/ricis"
+        android:layout_marginTop="55dp"
+        android:text="Ria Ricis"
+        android:background="@color/bgtentang"
+        app:layout_constraintTop_toBottomOf="@id/text_kategori"
+        app:layout_constraintLeft_toRightOf="@id/ftricis"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@+id/ftwildan"
+        android:src="@drawable/visbar_wildan"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/ftricis"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/wildan"
+        android:layout_marginTop="30dp"
+        android:text="Wildan Alamsyah"
+        app:layout_constraintTop_toBottomOf="@id/ftricis"
+        app:layout_constraintLeft_toRightOf="@id/ftwildan"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/bgtentang"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@+id/ftvazo"
+        android:src="@drawable/masker_vazo"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/ftwildan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/vazo"
+        android:layout_marginTop="30dp"
+        android:text="Vazo Achmad"
+        app:layout_constraintTop_toBottomOf="@id/ftwildan"
+        app:layout_constraintLeft_toRightOf="@id/ftvazo"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/bgtentang"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@+id/ftaryesh"
+        android:src="@drawable/aryesh"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/ftvazo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/aryesh"
+        android:layout_marginTop="30dp"
+        android:text="Aryesh Jianarta"
+        app:layout_constraintTop_toBottomOf="@id/ftvazo"
+        app:layout_constraintLeft_toRightOf="@id/ftaryesh"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/bgtentang"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@+id/ftderry"
+        android:src="@drawable/estodia_derry"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/ftaryesh"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/derry"
+        android:layout_marginTop="30dp"
+        android:text="Derry Fransakti"
+        app:layout_constraintTop_toBottomOf="@id/ftaryesh"
+        app:layout_constraintLeft_toRightOf="@id/ftderry"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/bgtentang"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

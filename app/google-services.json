@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "513191959785",
+    "firebase_url": "https://merchandise-3c5a6.firebaseio.com",
+    "project_id": "merchandise-3c5a6",
+    "storage_bucket": "merchandise-3c5a6.appspot.com"
+  },
+  "client": [{"client_info": {
+    "mobilesdk_app_id": "1:513191959785:android:e0d26ccd4e9a4c39d7a478",
+    "android_client_info": {
+      "package_name": "com.example.merchandise"
+    }
+  },
+    "oauth_client": [
+      {
+        "client_id": "513191959785-a9sokdng7uotvgbh6o1l8eh7bt7kit7u.apps.googleusercontent.com",
+        "client_type": 3
+      }
+    ],
+    "api_key": [
+      {
+        "current_key": "AIzaSyCMrgGxHkqHWWQkWRMWzBMtcinwnb58Ax8"
+      }
+    ],
+    "services": {
+      "appinvite_service": {
+        "other_platform_oauth_client": [
+          {
+            "client_id": "513191959785-a9sokdng7uotvgbh6o1l8eh7bt7kit7u.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ]
+      }
+    }
+   }],
+  "configuration_version": "1"
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:padding="16dp"
+    tools:context=".RicisActivity">
+
+    <TextView
+        android:id="@+id/text_rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Ricis ByKhayra"
+        android:textSize="20dp"
+        android:textColor="@color/hitam"
+        app:layout_constraintTop_toBottomOf="@id/timricis"/>
+
+    <ImageView
+        android:id="@+id/timricis"
+        android:src="@drawable/timriciss"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+
+    <ImageView
+        android:id="@+id/ftricis1"
+        android:src="@drawable/kerudung1"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/tentang"
+        app:layout_constraintTop_toBottomOf="@id/text_rb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/harga1"
+        android:text="Rp. 89.000"
+        app:layout_constraintTop_toBottomOf="@id/ftricis1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ftricis2"
+        android:src="@drawable/kerudung3"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/Colorbtnkategori"
+        app:layout_constraintTop_toBottomOf="@id/text_rb"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/harga2"
+        android:text="Rp. 39.000"
+        app:layout_constraintTop_toBottomOf="@id/ftricis2"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="25dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ftricis3"
+        android:src="@drawable/kerudung2"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/Colorbtnkategori"
+        app:layout_constraintTop_toBottomOf="@id/harga1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/harga3"
+        android:text="Rp. 55.000"
+        app:layout_constraintTop_toBottomOf="@id/ftricis3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ftricis4"
+        android:src="@drawable/ricisbykhayra"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/tentang"
+        app:layout_constraintTop_toBottomOf="@id/harga1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/harga4"
+        android:text="Rp. 66.000"
+        app:layout_constraintTop_toBottomOf="@id/ftricis4"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="25dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnricis"
+        app:layout_constraintTop_toBottomOf="@id/harga4"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/hitam"
+        android:text="Belanja"
+        android:background="@color/Colorbtnkategori"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

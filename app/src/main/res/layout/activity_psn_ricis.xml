@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg6"
+    tools:context=".PsnRicisActivity">
+
+    <ImageView
+        android:id="@+id/timricis"
+        android:src="@drawable/timriciss"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_pesanan"
+        android:text="Pilih Katalog :"
+        app:layout_constraintTop_toBottomOf="@id/timricis"
+        android:textColor="@color/hitam"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/rg0"
+        app:layout_constraintTop_toBottomOf="@id/tv_pesanan"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_1"
+            android:text="Seleb Square"
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb_2"
+            android:text="Evelyn Square"
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rb_3"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="Evessel Square" />
+        <RadioButton
+            android:id="@+id/rb_4"
+            android:text="Basic Voal"
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/warna"
+        android:text="Pilihan Warna :"
+        app:layout_constraintTop_toBottomOf="@+id/rg0"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        app:layout_constraintTop_toBottomOf="@id/warna"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbwarna1"
+            android:text="Navy"
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rbwarna2"
+            android:onClick="onRadioButtonClicked"
+            android:text="Blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/jumlah"
+        android:text="Jumlah Pesanan :"
+        app:layout_constraintTop_toBottomOf="@+id/rg1"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="-"
+        app:layout_constraintTop_toBottomOf="@id/jumlah"
+        android:layout_marginTop="15dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <Button
+        android:id="@+id/btn2"
+        app:layout_constraintTop_toBottomOf="@id/jumlah"
+        app:layout_constraintLeft_toRightOf="@+id/jumlah1"
+        android:text="+"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <TextView
+        android:id="@+id/jumlah1"
+        android:layout_width="14dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="1"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toRightOf="@id/btn1"
+        app:layout_constraintTop_toBottomOf="@id/jumlah" />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:textColor="@color/hitam"
+        android:text="Total Harga : "
+        app:layout_constraintTop_toBottomOf="@id/btn1"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_total"
+        app:layout_constraintTop_toBottomOf="@id/btn1"
+        app:layout_constraintLeft_toRightOf="@id/tv_total"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/pilih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Pesan"
+        android:background="@color/bgtentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/hrg"
+        android:visibility="gone"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

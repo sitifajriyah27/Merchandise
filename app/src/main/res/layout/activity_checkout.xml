@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".CheckoutActivity">
+
+    <ImageView
+        android:id="@+id/timricis"
+        android:src="@drawable/timriciss"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"/>
+
+    <TextView
+        android:id="@+id/text_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintTop_toBottomOf="@id/timricis"/>
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:text="Nama Lengkap : "
+        app:layout_constraintTop_toBottomOf="@id/text_judul"
+        android:textColor="@color/hitam"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/isi_nama"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/text_judul"
+        app:layout_constraintLeft_toRightOf="@id/tv_nama"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/hitam"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_tlp"
+        android:text="Nomor Telepon : "
+        app:layout_constraintTop_toBottomOf="@id/tv_nama"
+        android:textColor="@color/hitam"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/isi_tlp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_nama"
+        app:layout_constraintLeft_toRightOf="@id/tv_tlp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:text="Alamat Lengkap : "
+        app:layout_constraintTop_toBottomOf="@id/tv_tlp"
+        android:textColor="@color/hitam"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/isi_alamat"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_tlp"
+        app:layout_constraintLeft_toRightOf="@id/tv_alamat"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/hitam"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/pesanan"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_alamat"
+        android:text="Pesanan Anda : "
+        android:textSize="15dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/isi_pesanan2"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_alamat"
+        app:layout_constraintLeft_toRightOf="@id/pesanan"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/warna"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/pesanan"
+        android:text="Warna : "
+        android:textColor="@color/hitam"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/isi_warna2"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/pesanan"
+        app:layout_constraintLeft_toRightOf="@id/warna"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/jml"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/warna"
+        android:text="Jumlah : "
+        android:textSize="15dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/isi_jml2"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@id/warna"
+        app:layout_constraintLeft_toRightOf="@id/jml"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/ukuran"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/jml"
+        android:text="Ukuran : "
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/isi_ukuran2"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/jml"
+        app:layout_constraintLeft_toRightOf="@id/ukuran"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/hitam"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_tf"
+        app:layout_constraintTop_toBottomOf="@id/ukuran"
+        android:layout_marginTop="20dp"
+        android:text="@string/desc_tf"
+        android:textColor="@color/hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:text="Upload"
+        android:background="@color/bgtentang2"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_tf"
+        android:layout_marginBottom="25dp"
+        android:layout_width="150dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_choose"
+        android:text="Choose"
+        android:background="@color/bgtentang2"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_tf"
+        android:layout_marginBottom="25dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/bukti"
+        app:layout_constraintTop_toBottomOf="@id/btn_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:text="Submit"
+        android:background="@color/bgtentang"
+        app:layout_constraintTop_toBottomOf="@id/bukti"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0095DA</color>
+    <color name="colorPrimaryDark">#024980</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Colorbtndaftar">#F54B3E</color>
+    <color name="Colorbtnkategori">#36D1C3</color>
+    <color name="tentang">#FFC107</color>
+    <color name="background">#fff</color>
+    <color name="hitam">#FF0A0A0A</color>
+    <color name="bgtentang">#A1F0E7</color>
+    <color name="bgtentang2">#F8DA60</color>
+</resources>
